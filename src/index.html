@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Todo para tus clases, trabajo y oficina – imprenta y papelería escolar.">
+  <meta name="keywords" content="imprenta, papelería escolar, impresiones, fotocopias, anillados">
+  <meta property="og:title" content="Imprenta y Papelería Escolar">
+  <meta property="og:description" content="Todo para tus clases, trabajo y oficina.">
+  <title>Imprenta Escolar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link href="../dist/style.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="bg-peach-paper font-manrope text-charcoal-ink">
+  <!-- Header -->
+  <header class="p-6 fixed top-0 left-0 w-full bg-peach-paper z-10">
+    <nav class="flex space-x-4">
+      <a href="#" class="px-5 py-2 border-2 border-charcoal-ink rounded-nav bg-snow font-manrope font-medium">Inicio</a>
+      <a href="#servicios" class="px-5 py-2 border-2 border-charcoal-ink rounded-nav bg-snow font-manrope font-medium">Servicios</a>
+      <a href="#contacto" class="px-5 py-2 border-2 border-charcoal-ink rounded-nav bg-snow font-manrope font-medium">Contacto</a>
+    </nav>
+  </header>
+    <nav class="flex space-x-4">
+      <button class="px-5 py-2 border-2 border-charcoal-ink rounded-nav bg-snow font-manrope font-medium">Inicio</button>
+      <button class="px-5 py-2 border-2 border-charcoal-ink rounded-nav bg-snow font-manrope font-medium">Servicios</button>
+      <button class="px-5 py-2 border-2 border-charcoal-ink rounded-nav bg-snow font-manrope font-medium">Contacto</button>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="inicio" class="hero relative text-center py-20" data-aos="zoom-in">
+    <h2 class="font-alfa leading-[1.09] mb-4 animate-swing" style="font-size:50px; line-height:1.5;">PrintBoost Escolar</h2>
+    <h1 class="font-manrope mb-12 animate-float-slow" style="font-size:25px; line-height:1.5;">Imprime tu imaginación:<br>calidad escolar y oficina al instante.</h1>
+    <!-- Doodles -->
+    <div class="absolute inset-0 pointer-events-none">
+      <!-- Pencil -->
+      <svg class="absolute top-10 left-8 w-20 h-20 transform -rotate-10" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M2 22l2-2 12-12 2 2-12 12-2 2z" />
+        <path d="M14.5 5.5l4 4" />
+      </svg>
+      <!-- Notebook -->
+      <svg class="absolute top-12 right-10 w-24 h-24 transform rotate-12" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round">
+        <rect x="3" y="3" width="18" height="18" rx="2" />
+        <line x1="7" y1="3" x2="7" y2="21" />
+        <line x1="9" y1="7" x2="17" y2="7" />
+        <line x1="9" y1="11" x2="17" y2="11" />
+      </svg>
+      <!-- Scissors -->
+      <svg class="absolute bottom-16 left-20 w-20 h-20 transform -rotate-8" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round">
+        <circle cx="6" cy="6" r="3" />
+        <circle cx="18" cy="18" r="3" />
+        <path d="M8.5 8.5l7 7" />
+        <path d="M8.5 15.5l7-7" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="servicios" class="services px-6 py-12" data-aos="fade-up">
+  <section class="services px-6 py-12">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Impresiones -->
+      <div class="service-card bg-snow border-2 border-charcoal-ink rounded-cards p-6 text-center">
+        <img src="../assets/animations/print.png" alt="Impresiones" class="mx-auto w-12 h-12 mb-4 animate-float transition-icon hover:scale-105">
+        <h2 class="font-alfa text-heading-sm mb-2">Impresiones</h2>
+        <p class="text-body">Color $300 / B&amp;N $200</p>
+      </div>
+      <!-- Fotocopias -->
+      <div class="service-card bg-snow border-2 border-charcoal-ink rounded-cards p-6 text-center">
+        <img src="../assets/animations/photocopy.png" alt="Fotocopias" class="mx-auto w-12 h-12 mb-4 animate-float transition-icon hover:scale-105">
+        <h2 class="font-alfa text-heading-sm mb-2">Fotocopias</h2>
+        <p class="text-body">$100</p>
+      </div>
+      <!-- Anillados -->
+      <div class="service-card bg-snow border-2 border-charcoal-ink rounded-cards p-6 text-center">
+        <img src="../assets/animations/binder.png" alt="Anillados" class="mx-auto w-12 h-12 mb-4 animate-float transition-icon hover:scale-105">
+        <h2 class="font-alfa text-heading-sm mb-2">Anillados</h2>
+        <p class="text-body">Consulta precio</p>
+      </div>
+      <!-- Escaneos -->
+      <div class="service-card bg-snow border-2 border-charcoal-ink rounded-cards p-6 text-center">
+        <img src="../assets/animations/scan.png" alt="Escaneos" class="mx-auto w-12 h-12 mb-4 animate-float transition-icon hover:scale-105">
+        <h2 class="font-alfa text-heading-sm mb-2">Escaneos</h2>
+        <p class="text-body">Consulta precio</p>
+      </div>
+      <!-- Plastificados -->
+      <div class="service-card bg-snow border-2 border-charcoal-ink rounded-cards p-6 text-center">
+        <img src="../assets/animations/laminated.png" alt="Plastificados" class="mx-auto w-12 h-12 mb-4 animate-float transition-icon hover:scale-105">
+        <h2 class="font-alfa text-heading-sm mb-2">Plastificados</h2>
+        <p class="text-body">Consulta precio</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Schedule & Contact -->
+  <section id="contacto" class="schedule bg-mint-wash px-6 py-8 text-center" data-aos="fade-up" data-aos-delay="0">
+  
+    <h3 class="font-alfa text-subheading mb-4">Horarios</h3>
+    <p class="mb-2">Lun-Mié: 20:00-22:00</p>
+    <p class="mb-4">Jue-Dom: Todo el día</p>
+    
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="bg-mint-wash px-6 py-8 text-center" data-aos="fade-up" data-aos-delay="200">  
+      
+      <h3 class="font-alfa text-subheading mb-4">Contacto</h3>
+      <a href="https://wa.me/56922295040" class="inline-flex items-center justify-center px-6 py-3 border-2 border-charcoal-ink rounded-buttons bg-snow font-manrope font-medium transition-icon hover:scale-105">
+        <img src="../assets/animations/whatsapp-logo.png" alt="WhatsApp" class="w-6 h-6 mr-2"> WhatsApp: +56922295040
+      </a>
+      
+    </div>
+    <div class="bg-mint-wash px-6 py-4 text-center">
+      <p class="text-caption">© 2026 Imprenta Escolar — Todos los derechos reservados</p>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 800, once: true });
+    </script>
+  </footer>
+</body>
+</html>
