@@ -1,4 +1,13 @@
 @import "./design-vars.css";
 @tailwind base;
 @tailwind components;
+
+@layer components {
+  .hero-title {
+    @apply font-alfa text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl leading-tight;
+  }
+  .hero-slogan {
+    @apply font-manrope text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-relaxed;
+  }
+}
 @tailwind utilities;

@@ -11,31 +11,27 @@
   <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
   <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
   <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
 </head>
 <body class="bg-peach-paper font-manrope text-charcoal-ink">
   <!-- Header -->
-  <header class="p-6 fixed top-0 left-0 w-full bg-peach-paper z-10">
+  <header class="p-6 fixed top-0 left-0 w-full bg-peach-paper z-10 shadow">
     <nav class="flex space-x-4">
       <a href="#" class="px-5 py-2 border-2 border-charcoal-ink rounded-nav bg-snow font-manrope font-medium">Inicio</a>
       <a href="#servicios" class="px-5 py-2 border-2 border-charcoal-ink rounded-nav bg-snow font-manrope font-medium">Servicios</a>
       <a href="#contacto" class="px-5 py-2 border-2 border-charcoal-ink rounded-nav bg-snow font-manrope font-medium">Contacto</a>
     </nav>
   </header>
-    <nav class="flex space-x-4">
-      <button class="px-5 py-2 border-2 border-charcoal-ink rounded-nav bg-snow font-manrope font-medium">Inicio</button>
-      <button class="px-5 py-2 border-2 border-charcoal-ink rounded-nav bg-snow font-manrope font-medium">Servicios</button>
-      <button class="px-5 py-2 border-2 border-charcoal-ink rounded-nav bg-snow font-manrope font-medium">Contacto</button>
-    </nav>
+    
   </header>
 
   <!-- Hero -->
-  <section id="inicio" class="hero relative text-center py-20" data-aos="zoom-in">
-    <h2 class="font-alfa leading-[1.09] mb-4 animate-swing" style="font-size:50px; line-height:1.5;">PrintBoost Escolar</h2>
-    <h1 class="font-manrope mb-12 animate-float-slow" style="font-size:25px; line-height:1.5;">Imprime tu imaginación:<br>calidad escolar y oficina al instante.</h1>
+  <section id="inicio" class="hero relative text-center mt-20 sm:mt-24 md:mt-32 pt-32 pb-20 sm:pt-40 md:pt-48 md:pb-40" data-aos="zoom-in">
+    <h2 class="hero-title mb-4 animate-swing">PrintBoost Escolar</h2>
+    <h1 class="hero-slogan mb-12 animate-float-slow">Imprime tu imaginación:<br>calidad escolar y oficina al instante.</h1>
     <!-- Doodles -->
-    <div class="absolute inset-0 pointer-events-none">
+    <div class="hidden sm:block absolute inset-0 pointer-events-none">
       <!-- Pencil -->
       <svg class="absolute top-10 left-8 w-20 h-20 transform -rotate-10" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M2 22l2-2 12-12 2 2-12 12-2 2z" />
@@ -70,25 +66,25 @@
       </div>
       <!-- Fotocopias -->
       <div class="service-card bg-snow border-2 border-charcoal-ink rounded-cards p-6 text-center">
-        <img src="../assets/animations/photocopy.png" alt="Fotocopias" class="mx-auto w-12 h-12 mb-4 animate-float transition-icon hover:scale-105">
+        <img src="assets/animations/photocopy.png" alt="Fotocopias" class="mx-auto w-12 h-12 mb-4 animate-float transition-icon hover:scale-105">
         <h2 class="font-alfa text-heading-sm mb-2">Fotocopias</h2>
         <p class="text-body">$100</p>
       </div>
       <!-- Anillados -->
       <div class="service-card bg-snow border-2 border-charcoal-ink rounded-cards p-6 text-center">
-        <img src="../assets/animations/binder.png" alt="Anillados" class="mx-auto w-12 h-12 mb-4 animate-float transition-icon hover:scale-105">
+        <img src="assets/animations/binder.png" alt="Anillados" class="mx-auto w-12 h-12 mb-4 animate-float transition-icon hover:scale-105">
         <h2 class="font-alfa text-heading-sm mb-2">Anillados</h2>
         <p class="text-body">Consulta precio</p>
       </div>
       <!-- Escaneos -->
       <div class="service-card bg-snow border-2 border-charcoal-ink rounded-cards p-6 text-center">
-        <img src="../assets/animations/scan.png" alt="Escaneos" class="mx-auto w-12 h-12 mb-4 animate-float transition-icon hover:scale-105">
+        <img src="assets/animations/scan.png" alt="Escaneos" class="mx-auto w-12 h-12 mb-4 animate-float transition-icon hover:scale-105">
         <h2 class="font-alfa text-heading-sm mb-2">Escaneos</h2>
         <p class="text-body">Consulta precio</p>
       </div>
       <!-- Plastificados -->
       <div class="service-card bg-snow border-2 border-charcoal-ink rounded-cards p-6 text-center">
-        <img src="../assets/animations/laminated.png" alt="Plastificados" class="mx-auto w-12 h-12 mb-4 animate-float transition-icon hover:scale-105">
+        <img src="assets/animations/laminated.png" alt="Plastificados" class="mx-auto w-12 h-12 mb-4 animate-float transition-icon hover:scale-105">
         <h2 class="font-alfa text-heading-sm mb-2">Plastificados</h2>
         <p class="text-body">Consulta precio</p>
       </div>
@@ -118,7 +114,7 @@
       <p class="text-caption">© 2026 Imprenta Escolar — Todos los derechos reservados</p>
     </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
     <script>
       AOS.init({ duration: 800, once: true });
     </script>
